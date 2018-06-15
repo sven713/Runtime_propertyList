@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Person.h"
+#import "DogViewController.h"
 
 @interface ViewController ()
 
@@ -28,9 +29,6 @@
     p.name = @"宋锡铭";
     p.age = 29;
     
-//    NSString *path = NSTemporaryDirectory();
-//    NSString *filePath = [path stringByAppendingPathComponent:@"sven.plist"];
-    
     [NSKeyedArchiver archiveRootObject:p toFile:[self filePath]];
     
 }
@@ -49,7 +47,9 @@
 
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    Person *p = [[Person alloc] init];
+    DogViewController *dogvc = [[DogViewController alloc] init];
+    dogvc.view.backgroundColor = [UIColor darkGrayColor];
+    [self presentViewController:dogvc animated:YES completion:nil];
 }
 
 @end

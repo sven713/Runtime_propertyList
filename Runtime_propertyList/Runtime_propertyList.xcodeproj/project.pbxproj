@@ -16,6 +16,8 @@
 		A0DE6A6620D36983004D9F2F /* Runtime_propertyListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DE6A6520D36983004D9F2F /* Runtime_propertyListTests.m */; };
 		A0DE6A7120D36983004D9F2F /* Runtime_propertyListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DE6A7020D36983004D9F2F /* Runtime_propertyListUITests.m */; };
 		A0DE6A8020D369BB004D9F2F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DE6A7F20D369BB004D9F2F /* Person.m */; };
+		A0DE6A8320D37C20004D9F2F /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DE6A8220D37C20004D9F2F /* Dog.m */; };
+		A0DE6A8620D37CD1004D9F2F /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DE6A8520D37CD1004D9F2F /* DogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		A0DE6A7220D36983004D9F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0DE6A7E20D369BB004D9F2F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A0DE6A7F20D369BB004D9F2F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A0DE6A8120D37C20004D9F2F /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		A0DE6A8220D37C20004D9F2F /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		A0DE6A8420D37CD1004D9F2F /* DogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
+		A0DE6A8520D37CD1004D9F2F /* DogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +114,12 @@
 				A0DE6A4D20D36982004D9F2F /* AppDelegate.m */,
 				A0DE6A4F20D36982004D9F2F /* ViewController.h */,
 				A0DE6A5020D36982004D9F2F /* ViewController.m */,
+				A0DE6A8420D37CD1004D9F2F /* DogViewController.h */,
+				A0DE6A8520D37CD1004D9F2F /* DogViewController.m */,
 				A0DE6A7E20D369BB004D9F2F /* Person.h */,
 				A0DE6A7F20D369BB004D9F2F /* Person.m */,
+				A0DE6A8120D37C20004D9F2F /* Dog.h */,
+				A0DE6A8220D37C20004D9F2F /* Dog.m */,
 				A0DE6A5220D36982004D9F2F /* Main.storyboard */,
 				A0DE6A5520D36982004D9F2F /* Assets.xcassets */,
 				A0DE6A5720D36982004D9F2F /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				A0DE6A5120D36982004D9F2F /* ViewController.m in Sources */,
 				A0DE6A5C20D36982004D9F2F /* main.m in Sources */,
+				A0DE6A8320D37C20004D9F2F /* Dog.m in Sources */,
+				A0DE6A8620D37CD1004D9F2F /* DogViewController.m in Sources */,
 				A0DE6A8020D369BB004D9F2F /* Person.m in Sources */,
 				A0DE6A4E20D36982004D9F2F /* AppDelegate.m in Sources */,
 			);
