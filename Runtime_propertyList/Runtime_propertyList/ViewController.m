@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"路径-%@",NSTemporaryDirectory());
+    
+    
 }
 
 - (IBAction)saveBtnClikc:(id)sender {
@@ -45,5 +47,9 @@
     NSLog(@"解档结果:%@--%zd",p.name, p.age);
 }
 
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    Person *p = [[Person alloc] init];
+}
 
 @end
